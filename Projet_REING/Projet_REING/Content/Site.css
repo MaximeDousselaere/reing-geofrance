@@ -1,0 +1,66 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}
+table th, table td{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+div.success{
+    padding:10px;
+    border:1px solid green;
+    border-radius:10px;
+    width:auto;
+    color:green;
+    font-weight:bold;
+}
+
+div.info{
+    margin-right:20%;
+    border:1px solid black;
+    border-radius:5px;
+    font-style:italic;
+    padding:5px;
+}
+
+.buttonToXML {
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #512473;
+    border:none;
+    transition:0.5s;
+}
+
+.buttonToXML:hover{
+    cursor:pointer;
+    background-color:#2423a5;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
